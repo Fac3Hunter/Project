@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<!-- /**
+* VEGA HTML5 Responsive Template
+*
+* Author: Emanuele "flashedge" Manco
+* Profile: http://themeforest.net/user/flashedge
+* E-mail: hello@flashedge.net
+*
+* Version: 1.1.7
+**/ -->
+
+<!-- paulirish.com/2008/conditional-css-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ru"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Проект</title>
+
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- favicon & idevice homepage thumb -->
+    <link rel="icon" type="image/png" href="images/favicon/favicon.png"/>
+    <link rel="apple-touch-icon" href="images/favicon/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Uncomment the following line for your custom stylesheet -->
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+
+</head>
+<body>
+
+<!-- fullscreen background slideshow start -->
+<div id="bg" class="background">
+    <ul class="bg-gallery" data-delay="8">
+        <li data-image="images/slides/01.jpg"><span></span></li>
+        <li data-image="images/slides/02.jpg"><span></span></li>
+        <li data-image="images/slides/03.jpg"><span></span></li>
+        <li data-image="images/slides/04.jpg"><span></span></li>
+        <li data-image="images/slides/05.jpg"><span></span></li>
+        <li data-image="images/slides/06.jpg"><span></span></li>
+        <li data-image="images/slides/07.jpg"><span></span></li>
+        <li data-image="images/slides/08.jpg"><span></span></li>
+    </ul>
+</div>
+<!-- fullscreen background slideshow end -->
+
+
+<!-- start main container -->
+<div id="main" data-globalscroll="false" data-mobileautofocus="true">
+
+<!-- shiny graphics -->
+<div class="pattern hide-on-phones"></div>
+<div class="gradient"></div>
+
+<!-- start container -->
+<div class="container">
+
+    <!-- start header -->
+    <div class="row" id="header" data-fixed="false">
+
+        <div class="four columns">
+            <!-- logo, can be text or an image, at your discretion -->
+            <h1 class="logo"><a href="index.html">Мой Проект</a></h1>
+
+            <!-- fake loadbar -->
+            <div class="bar"></div>
+        </div>
+
+
+        <div class="eight columns">
+
+
+
+
+            <!-- start navigation -->
+            <nav class="row">
+
+                <ul class="nav-bar" data-autohide="true">
+                    <li class="has-flyout">
+                        <a href="works.html" class="main">Ссылки</a>
+                        <div class="flyout-toggle"><span></span></div>
+
+                        <!-- start submenu -->
+                        <div class="flyout small">
+                            <ul>
+                                <li><a href="http://security.mosmetod.ru/moshennichestvo-v-seti/123-fishingovye-pisma-ssylki-i-sajty"target="_blank">Фишинг</a></li>
+                                <li><a href="https://www.kaspersky.ru/blog/privacy-ten-tips/10390/"target="_blank">Советы</a></li>
+                                <li><a href="https://www.kaspersky.ru/resource-center/preemptive-safety/money-online"target="_blank">Деньги</a></li>
+                            </ul>
+                        </div>
+                        <!-- end submenu -->
+                    </li>
+                    <li class="has-flyout">
+                        <a href="about.html" class="main">Антивирусы</a>
+                        <div class="flyout-toggle"><span></span></div>
+
+                        <!-- start submenu -->
+                        <div class="flyout small">
+                            <ul>
+                                <li><a href="https://www.kaspersky.ru"target="_blank">Kaspersky</a></li>
+                                <li><a href="https://www.avast.ru"target="_blank">Avast</a></li>
+                                <li><a href="https://www.bitdefender.com"target="_blank">Bitdefender</a></li>
+                                <li><a href="https://www.pandasecurity.com/en/homeusers/solutions/free-antivirus"target="_blank">Pandasecurity</a></li>
+                            </ul>
+                        </div>
+                        <!-- end submenu -->
+                    </li>
+                    <li>
+                        <a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom"target="_blank" class="main">Adblock</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end navigation -->
+
+
+    </div>
+    <!-- header end -->
+</div>
+<!-- container end -->
+
+
+<!-- start content -->
+<div id="content">
+
+    <div class="wrapper">
+
+        <!-- Used for ajax transition -->
+        <div class="old"></div>
+
+        <!-- start new container -->
+        <div class="new">
+            <!-- NOTICE: Do NOT edit above. Keep the structure before this part as-is. -->
+
+
+
+            <!-- ======================================================== -->
+            <!-- start target container, this part is loaded dynamically! -->
+            <div class="target docked">
+
+                <div class="container subheader">
+                    <header class="row">
+                        <hgroup>
+                            <h1 class="headline"><span>Защита персональных данных</span></h1>
+                        </hgroup>
+                    </header>
+                </div>
+
+                <div class="gap"></div>
+                <div id="shell" class="wide" data-iscroll="true">
+                    <div id="scroller" class="container">
+
+                        <div class="row">
+                            <div class="six columns">
+                                <hgroup>
+                                    <h4>Кража</h4>
+
+                                </hgroup>
+                                <p>Какими образами может произойти утечка личной информации.</p>
+                                <p>Фишинг (англ. phishing, от fishing – рыбная ловля, выуживание) – это разновидность мошенничества в интернете, целью которого является получение логина и пароля пользователя, данных его банковских карт и счетов. В основном, используется метод проведения массовых рассылок от имени популярных компаний и организаций.Фишинг основан на том, что зачастую пользователи не знают простого факта, что сами сервисы не рассылают писем с просьбами сообщить свои учётные данные, пароль и прочую личную информацию.
+                                 Фишинговые ссылки - это ссылки на мошеннические интернет-ресурсы, чаще всего на копии сайтов известных организаций, банков, интернет-магазинов, социальной сети и т.д. Перейдя по такой ссылке вы попадаете на ресурс, где вас разными приемами пытаются заставить ввести свой логин и пароль.Обычно такие ссылки вам присылают по почте или в личном сообщении, например, в социальных сетях. Это или прямые ссылки, перейдя по которым вы попадаете на сайт, который почти ничем не отличается от настоящего, или ссылки с редиректом (переадресацией), перейдя по которым вы перенаправляетесь на другие сайты и в конечном итоге попадаете на ресурс мошенников. Попав на такой сайт, вы можете сразу и не понять, что находитесь в ловушке, а мошенники тем временем пытаются из вас выудить нужную им информацию в виде логина и пароля. Существует несколько видов фишинговых ссылок: Прямая – ссылка ведет на ту же страницу, что и ее адрес. С редиректом – ссылка ведет вас сначала на один сайт, потом перенаправляет на другой, потом на третий и т.д. Скрытая – ссылка внешне выглядит правильно, но в реальности ведет на фишинговую страницу.
+                                Эксфильтрация, или кража, данных (exfiltration) — это несанкционированное копирование, передача или получение данных с компьютера или сервера жертвы. Эксфильтрация может осуществляться через интернет или по локальной сети. Как правило, при передаче данных атакующие сжимают и шифруют их, чтобы избежать обнаружения. Для эксфильтрации данных из целевой системы злоумышленники могут использовать командные серверы (часто обозначаемые как C&C или С2) и другие каналы передачи.</p>
+
+                            </div>
+
+                            <div class="six columns">
+                                <hgroup>
+                                    <h4>Защита</h4>
+
+                                  </hgroup>
+
+                                <p>Защита от фишинга и других способов кражи данных.</p>
+                                <p>1.Все современные браузеры обладают возможностью информирования пользователей о подозрительном сайте. Называется эта функция «Антифишинг». Поэтому всегда поддерживайте версию своего браузера в актуальном состоянии, постоянно устанавливая последние обновления. Также, в браузеры уже бывает встроен дополнительный механизм защиты от фишинга.</p>
+                                <p>2.Любой современный антивирус обладает функцией предупреждения и блокировки перехода на сомнительный портал.(Ссылки на самые популярные антивирусы представлены в ссылках выше) </p>
+                                <p>3.Борьба почтовых служб с помощью специальных спам-фильтров, которыми обрабатывается электронное письмо перед тем как попасть к пользователю.</p>
+                                <p>4.Пользователь всегда должен быть настороже вводя куда-либо свои личные данные и нажимая на непроверенные ссылки, следует всегда обращать внимание на адрес страницы. </p>
+                                <p>5.Если у вас есть подозрения что кто-либо смог заполучить данные вашего логина и пароля, то измените эти данные и добавьте дополнительные меры проверки для входа в ваш аккаунт. После этого обязательно сообщите о том, что произошло в службу поддержки ресурса</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+
+
+                        </div>
+
+                        <div class="row copy">
+                            <p>Предмет итогового проекта ученика 34 Школы г.Новороссийск, класса 9 "В" Шевченко Богдана</a></p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- end target container, this part is loaded dynamically! -->
+            <!-- ====================================================== -->
+
+
+
+
+
+
+            <!-- NOTICE: Do NOT edit below. Keep the structure after this part as-is. -->
+        </div>
+        <!-- end new container -->
+
+    </div>
+
+</div>
+<!-- end content -->
+
+
+<footer id="footer">
+
+    <!-- music player start -->
+
+    <!-- music player end -->
+
+</footer>
+
+
+</div>
+<!-- end main container -->
+
+
+<!-- Included javascript libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.foundation.js"></script>
+<script src="js/foundation.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/audiojs/audio.min.js"></script>
+<script src="js/jquery.plugins.js"></script>
+
+<!-- AddThis API Widget. Uncomment the row below and put data-addthis in the project page to "true", use your userid below. -->
+<!--<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=YOURUSERID"></script> -->
+
+<!-- LESS Stylesheet, Uncomment this block for debugging -->
+<!--<link rel="stylesheet/less" type="text/css" href="less/styles.less">
+<script src="js/less-1.3.0.min.js"></script>-->
+
+<!-- Where the magic happens -->
+<script src="js/net.flashedge.app.min.js"></script>
+
+<!-- IE6 Update Notice --> <!--[if lte IE 6]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+
+</body>
+</html>
